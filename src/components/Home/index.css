@@ -1,0 +1,11 @@
+.homeinnerContainer {
+  padding: 20px;
+  background-color: #fefefe;
+}
+
+@media (max-width: 786px) {
+  .homeinnerContainer {
+    padding: 0px;
+    width: 100%;
+  }
+}

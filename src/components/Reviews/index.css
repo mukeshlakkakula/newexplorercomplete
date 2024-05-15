@@ -1,0 +1,106 @@
+.feedback {
+  background: url("https://res.cloudinary.com/djlhr4ycg/image/upload/v1715320577/section-background_sxi9ha.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2px;
+}
+
+.label {
+  color: #131212;
+  font-size: 1.2rem;
+  margin-top: 2px;
+  background-color: #f8f4f48d;
+}
+
+.heading {
+  color: #f8f4f4;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  color: #666;
+  font-size: 1.1rem;
+  font-weight: bold;
+
+  border-radius: 5px;
+}
+
+.blink {
+  animation: blink 4s infinite;
+  background-color: #f9f9f971;
+  padding: 10px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.voices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.voice {
+  max-width: 300px;
+  text-align: left;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease-in-out;
+}
+
+.voice:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.detail {
+  margin-bottom: 1rem;
+}
+
+.student-info {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  font-weight: bolder;
+}
+
+.testimonial {
+  font-style: italic;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .voices {
+    justify-content: space-around;
+  }
+
+  .voice {
+    max-width: calc(100% - 1rem);
+    margin-bottom: 2rem;
+  }
+}

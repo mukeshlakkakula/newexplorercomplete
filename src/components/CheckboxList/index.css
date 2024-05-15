@@ -1,0 +1,65 @@
+.checkboxInnerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 15px;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.checkHead {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "sans-serif" "poppins";
+  color: #151515;
+}
+
+.CheckBoxTextContainer {
+  display: flex;
+  padding: 20px;
+  width: 1024px;
+  margin: 2px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.checkBoxInput {
+  width: 35px;
+  color: green !important;
+  background-color: #f6f6f6;
+  height: 35px;
+}
+
+.moreContainer {
+  background-color: #151515;
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 786px) {
+  .checkBoxInput {
+    width: 25px !important;
+    height: 25px;
+  }
+  .checkHead {
+    font-size: 25px;
+  }
+  .htext {
+    font-size: 16px;
+    color: #000;
+  }
+  .CheckBoxTextContainer {
+    width: 100%;
+  }
+  .moreContainer {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,40 @@
+.certificateContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  text-align: center;
+  padding: 10px;
+}
+
+.certificateH1 {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 700;
+}
+
+.certificateH4 {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 700;
+}
+
+.certificateImg {
+  width: 90%;
+  border-radius: 5px;
+}
+
+@media (max-width: 786px) {
+  .certificateH1 {
+    font-size: 25px;
+  }
+
+  .certificateH4 {
+    font-size: 15px;
+  }
+  .certificateContainer {
+    padding: 13px;
+  }
+}

@@ -1,0 +1,20 @@
+.bulletContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(242, 242, 247);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.faIcon {
+  color: #13e985;
+  font-size: 23px;
+}
+.bulletText {
+  color: #fff;
+  font-size: 21px;
+}
