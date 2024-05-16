@@ -9,9 +9,9 @@ function Accordion({ question, answer, isOpen, onClick }) {
       <div className="question">
         <span className="icon">
           {isOpen ? (
-            <FontAwesomeIcon icon={faMinus} />
+            <FontAwesomeIcon icon={faMinus} className="m-1" />
           ) : (
-            <FontAwesomeIcon icon={faPlus} />
+            <FontAwesomeIcon icon={faPlus} className="m-1" />
           )}
         </span>
         {question}
@@ -30,36 +30,48 @@ function FAQSection() {
 
   const faqs = [
     {
-      question: "  When is the next tourism workshop scheduled?",
+      question: "When does the workshop start?",
+      answer: "Workshop is on Saturday, 18 May 2024, 07:00 p.m. IST ",
+    },
+    {
+      question: "Are there any pre-requisites to attend this workshop?",
       answer:
-        "  The next tourism workshop is scheduled for Saturday, 25th May 2024, at 10:00 a.m. IST.",
+        "You just need an interest in the world of WhatsApp Marketing & Automation. No prior knowledge about any software is required.",
+    },
+    {
+      question: " Is the workshop live or pre-recorded?",
+      answer:
+        "It is a completely LIVE workshop with a total duration of 3 hours.",
+    },
+    {
+      question: "Timings of the workshop?",
+      answer: "Workshop will starts at Saturday, 7 PM IST",
+    },
+    {
+      question: "Do you get notes & assignments to practice?",
+      answer:
+        "Absolutely. It is a completely hands-on Workshop where you will also get notes, reference material & assignments for your future reference.",
     },
     {
       question:
-        "  Are there any prerequisites for attending the tourism workshop?",
+        "I've never run & setup Marketing or Automation on WhatsApp. Am I eligible for this Workshop?",
       answer:
-        "  No prerequisites are required. The workshop is open to anyone interested in learning about tourism.",
+        "Absolutely! This Workshop begins from basics and will teach you everything from the beginning and scale to advanced Systems & Methods.",
     },
     {
-      question: "  What topics will be covered in the tourism workshop?",
-      answer:
-        "  The workshop will cover various aspects of tourism, including destination management, sustainable tourism practices, and customer service in the tourism industry.",
+      question: "Is it a certified workshop?",
+      answer: "Yes! It is a Skill Nation Certified Workshop.",
     },
     {
-      question: "  Are there any certification courses available in tourism?",
+      question: "Will it be recorded?",
       answer:
-        "  Yes, we offer certification courses in tourism management, tour guiding, and hospitality management.",
-    },
-    {
-      question: "  How can I enroll in the tourism courses?",
-      answer:
-        "  You can enroll in our tourism courses by visiting our website and filling out the enrollment form.",
+        "No, it won’t be recorded but you will get detailed notes for your references",
     },
   ];
 
   return (
     <div className="containerOf">
-      <h2 className="question-main">Tourism Workshop FAQ</h2>
+      <h2 className="question-main">Frequently Asked Questions</h2>
       <h4 style={{ textAlign: "center", fontSize: "15px", color: "#000" }}>
         We have answered all common questions below that you might have about
         the workshop. For any further queries, please contact:9533037680
@@ -74,7 +86,6 @@ function FAQSection() {
         />
       ))}
     </div>
-    
   );
 }
 

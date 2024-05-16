@@ -1,12 +1,20 @@
 [
-  { "checkInfo": "To be filled..." },
-  { "checkInfo": "To be filled..." },
-  { "checkInfo": "To be filled..." },
-  { "checkInfo": "To be filled..." },
-  { "checkInfo": "To be filled..." },
-  { "checkInfo": "To be filled..." },
-
-  { "checkInfo": "To be filled..." },
-  { "checkInfo": "To be filled..." },
-  { "checkInfo": "To be filled..." }
+  {
+    "checkInfo": "I want to send Bulk Promotional messages to 1000's of users in thier WhatsApp inbox without getting banned"
+  },
+  {
+    "checkInfo": "I dont want to reply manually on WhatsApp and Setup automated replies like big brands for my Business "
+  },
+  {
+    "checkInfo": "I want to use WhatsApp as a CRM tool to maintain my customers without using any 3rd party software"
+  },
+  {
+    "checkInfo": "I dont know how to send messages to 1000's of Cutomer using WA marketing tool without getting banned"
+  },
+  {
+    "checkInfo": "I want to send Bulk WhatsApp messages with multiple media files and buttons for 7x more sales"
+  },
+  {
+    "checkInfo": "I want to increase my sales using WhatsApp Marketing & Automation"
+  }
 ]

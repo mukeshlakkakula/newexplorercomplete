@@ -31,14 +31,14 @@ const CheckboxList = () => {
             }}
           >
             {" "}
-            Tourism Business Workshop.
+            WhatsApp Marketing Workshop.
           </span>
         </h4>
         {<Register />}
       </div>
       <div className="moreContainer">
-        More than 20,000 Businesses have called it the best way to learn Tourism
-        Business & grow Faster!
+        More than 23,000 Businesses have called it the best way to learn
+        WhatsApp Marketing, Send Bulk Messages & Sell 7x Faster!
       </div>
     </div>
   );

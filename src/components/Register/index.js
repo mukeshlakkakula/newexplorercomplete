@@ -30,7 +30,9 @@ const Register = () => {
             <div>
               <span className="">
                 <span className="">
-                  Launch Your Own Tourism Business with{" "}
+                  Grow Any Business Using WhatsApp Marketing &amp; Automation
+                  Now!
+                  <br />
                   <font size="-1">
                     (Only <s>Rs 2000</s>{" "}
                     <span className={` ${isHovered ? "spn" : ""}`}>
@@ -38,8 +40,6 @@ const Register = () => {
                     </span>{" "}
                     )
                   </font>{" "}
-                  Investment
-                  <br />
                 </span>
               </span>
             </div>

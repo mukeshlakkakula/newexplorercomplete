@@ -27,21 +27,17 @@ const AboutWorkshop = () => {
     <div className="AboutWorkshopContainer">
       <div className="AboutWorkShopInnerContainer">
         <h2 className="contentText">
-          Are you passionate about <span className="spanHighlight">travel</span>
-          and dreaming of{" "}
+          LEARN TO USE YOUR{" "}
           <span className="spanHighlight">
-            starting your own tourism business?
+            WHATSAPP FOR MARKETING & BUSINESS AUTOMATION + CRM
           </span>
         </h2>
         <h2 className="contentText">
-          Join us for an intensive{" "}
-          <span className="spanHighlight">three-hour workshop.</span>
-        </h2>
-        <h2 className="contentText">
-          where we'll guide you through the essential steps of{" "}
+          TO SEND <span className="spanHighlight">BULK MESSAGES </span>TO LEADS{" "}
           <span className="spanHighlight">
-            launching your venture with minimal investment.
-          </span>
+            WITHOUT GETTING BANNED & SELL 7X MORE
+          </span>{" "}
+          PRODUCTS OR SERVICES, GAURANTEED!
         </h2>
         <h3 className="contentText02">
           (WITHOUT BUYING EXPENSIVE TOOLS OR ANY PRIOR KNOWLEDGE)

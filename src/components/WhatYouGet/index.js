@@ -11,7 +11,6 @@ const WhatYouGet = () => {
       <div>
         <h1 className="topicH1">{each.topic}</h1>
         <p className="pointP">{each.point01}</p>
-        <p className="pointP">{each.point02}</p>
       </div>
     </div>
   ));
